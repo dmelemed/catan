@@ -1,0 +1,30 @@
+.hexagon {
+	-fx-background-color: red;
+}
+.brick {
+	-fx-background-color: firebrick;
+}
+.desert {
+	-fx-background-color: burlywood ;
+}
+.ore {
+	-fx-background-color: grey;	
+}
+.sheep {
+	-fx-background-color: greenyellow;
+}
+.wheat {
+	-fx-background-color: yellow;
+}
+.wood {
+	-fx-background-color: darkgreen;
+}
+.board {
+	-fx-background-color: lightblue;
+}
+.controls {
+	-fx-background-color: grey;
+}
+.hands {
+	-fx-background-color: tan;
+}
