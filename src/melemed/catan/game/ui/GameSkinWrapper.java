@@ -3,16 +3,11 @@ package melemed.catan.game.ui;
 import java.util.List;
 
 import javafx.scene.Node;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
 import melemed.catan.board.Resource;
 import melemed.catan.game.Game;
-import melemed.catan.game.GameControls;
 import melemed.catan.game.GameManager;
 import melemed.catan.game.Player;
-import melemed.catan.pieces.GamePiece;
 
 public class GameSkinWrapper extends BorderPane {
 	
@@ -41,9 +36,9 @@ public class GameSkinWrapper extends BorderPane {
 //			}
 			players.get(0).takeResource(Resource.WHEAT, Resource.BRICK, Resource.SHEEP, Resource.BRICK);
 			setLeft(new BorderSkin(players.get(1)));
-			setRight(new BorderSkin(players.get(3)));
+//			setRight(new BorderSkin(players.get(3)));
 			setBottom(new BorderSkin(players.get(0)));
-			setTop(new BorderSkin(players.get(2)));
+//			setTop(new BorderSkin(players.get(2)));
 		}
 	}
 	

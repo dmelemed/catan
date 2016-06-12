@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import melemed.catan.board.NumberToken;
 import melemed.catan.config.Config;
 
 public class Catan extends Application {

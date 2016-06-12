@@ -7,9 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javafx.scene.paint.Color;
-import melemed.catan.board.Board;
 import melemed.catan.board.Edge;
-import melemed.catan.board.NumberToken;
 import melemed.catan.board.Resource;
 import melemed.catan.board.Vertex;
 import melemed.catan.cards.DevelopmentCard;

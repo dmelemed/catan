@@ -6,7 +6,7 @@ import melemed.catan.config.Config;
 import melemed.catan.pieces.Road;
 import melemed.catan.ui.BoardShapeWrapper;
 
-public class RoadSkin extends BoardShapeWrapper {
+public class RoadSkin implements BoardShapeWrapper {
 
 	private Shape shape;
 

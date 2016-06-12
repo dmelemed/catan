@@ -11,7 +11,6 @@ import javafx.scene.shape.Shape;
 import melemed.catan.board.Board;
 import melemed.catan.board.Edge;
 import melemed.catan.board.Hexagon;
-import melemed.catan.board.NumberToken;
 import melemed.catan.board.Vertex;
 import melemed.catan.config.Config;
 import melemed.catan.pieces.GamePiece;

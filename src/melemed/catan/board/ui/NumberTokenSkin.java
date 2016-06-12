@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javafx.scene.image.Image;
-import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Shape;
@@ -13,10 +12,9 @@ import melemed.catan.board.NumberToken;
 import melemed.catan.config.Config;
 import melemed.catan.ui.BoardShapeWrapper;
 
-public class NumberTokenSkin extends BoardShapeWrapper {
+public class NumberTokenSkin implements BoardShapeWrapper {
 	
 	private static final Logger logger = LoggerFactory.getLogger(NumberTokenSkin.class);
-
 
 	private Shape shape;
 	private NumberToken token;

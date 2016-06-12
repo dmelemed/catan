@@ -7,7 +7,6 @@ import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
-import melemed.catan.board.NumberToken;
 import melemed.catan.game.ui.GameControlsSkin;
 import melemed.catan.pieces.Road;
 import melemed.catan.pieces.Settlement;

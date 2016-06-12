@@ -4,26 +4,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javafx.event.EventHandler;
-import javafx.scene.Node;
-import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Shape;
 import melemed.catan.board.Hexagon;
-import melemed.catan.board.NumberToken;
 import melemed.catan.board.Resource;
 import melemed.catan.config.Config;
 import melemed.catan.ui.BoardShapeWrapper;
 
-public class HexSkin extends BoardShapeWrapper {
+public class HexSkin implements BoardShapeWrapper {
 
 	private static final Logger logger = LoggerFactory.getLogger(HexSkin.class);
 
 	private static double HALF_SQRT_THREE = Math.sqrt(3) / 2;
 
+	private Shape shape;
+	
 	public HexSkin(final Hexagon hex) {
 
 		Polygon hexagon = new Polygon();

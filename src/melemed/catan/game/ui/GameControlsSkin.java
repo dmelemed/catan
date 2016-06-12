@@ -6,9 +6,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import melemed.catan.game.Game;
 import melemed.catan.game.GameControls;
-import melemed.catan.game.GameManager;
-import melemed.catan.pieces.Road;
-import melemed.catan.pieces.Settlement;
 
 public class GameControlsSkin extends HBox {
 

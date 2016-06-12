@@ -7,7 +7,6 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javafx.beans.property.ReadOnlyObjectWrapper;
 import melemed.catan.board.ui.HexSkin;
 import melemed.catan.game.Game;
 import melemed.catan.pieces.GamePiece;

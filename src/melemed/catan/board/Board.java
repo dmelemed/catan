@@ -8,12 +8,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javafx.scene.Node;
-import javafx.scene.Parent;
 import melemed.catan.board.ui.BoardSkin;
 import melemed.catan.game.Game;
 import melemed.catan.pieces.GamePiece;
-import melemed.catan.pieces.Settlement;
 
 public class Board {
 
@@ -229,7 +226,7 @@ public class Board {
 	}
 
 	public void putPiece(GamePiece piece) {
-		logger.debug("Adding {} piece to board", piece.getClass());
+		logger.debug("Adding {} piece to board", piece);
 		skin.addElements(piece.getSkin().getShape());
 	}
 

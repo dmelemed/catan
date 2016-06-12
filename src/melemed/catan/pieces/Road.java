@@ -1,12 +1,10 @@
 package melemed.catan.pieces;
 
-import javafx.scene.shape.Shape;
 import melemed.catan.board.Edge;
 import melemed.catan.board.Location;
 import melemed.catan.board.Vertex;
 import melemed.catan.game.Player;
 import melemed.catan.pieces.ui.RoadSkin;
-import melemed.catan.pieces.ui.SettlementSkin;
 import melemed.catan.ui.BoardShapeWrapper;
 
 public class Road extends GamePiece {

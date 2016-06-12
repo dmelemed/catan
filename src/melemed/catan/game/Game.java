@@ -6,14 +6,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javafx.animation.AnimationTimer;
-import javafx.beans.binding.BooleanExpression;
-import javafx.beans.property.ReadOnlyBooleanProperty;
-import javafx.beans.property.ReadOnlyBooleanWrapper;
-import javafx.beans.property.ReadOnlyObjectProperty;
-import javafx.scene.Parent;
 import melemed.catan.board.Board;
-import melemed.catan.board.NumberToken;
 import melemed.catan.config.Config;
 import melemed.catan.game.ui.GameSkinWrapper;
 import melemed.catan.pieces.GamePiece;

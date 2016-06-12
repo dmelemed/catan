@@ -3,24 +3,15 @@ package melemed.catan.board.ui;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sun.javafx.image.impl.ByteIndexed.Getter;
-
 import javafx.event.EventHandler;
-import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
-import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Shape;
-import melemed.catan.board.NumberToken;
 import melemed.catan.board.Vertex;
 import melemed.catan.config.Config;
 import melemed.catan.ui.BoardShapeWrapper;
 
-public class VertexSkin extends BoardShapeWrapper {
+public class VertexSkin implements BoardShapeWrapper {
 	
 	private static final Logger logger = LoggerFactory.getLogger(VertexSkin.class);
 

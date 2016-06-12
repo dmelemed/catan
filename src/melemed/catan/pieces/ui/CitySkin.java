@@ -4,7 +4,7 @@ import javafx.scene.shape.Shape;
 import melemed.catan.pieces.City;
 import melemed.catan.ui.BoardShapeWrapper;
 
-public class CitySkin extends BoardShapeWrapper {
+public class CitySkin implements BoardShapeWrapper {
 
 	public CitySkin(City city) {
 

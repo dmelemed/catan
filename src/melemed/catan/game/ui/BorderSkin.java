@@ -1,16 +1,10 @@
 package melemed.catan.game.ui;
 
-import java.util.Arrays;
 import java.util.List;
-
-import com.sun.prism.paint.Color;
 
 import javafx.geometry.Pos;
 import javafx.scene.Node;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
-import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import melemed.catan.board.Resource;
 import melemed.catan.cards.Hand;

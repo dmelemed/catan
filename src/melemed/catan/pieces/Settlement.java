@@ -6,10 +6,8 @@ import org.slf4j.LoggerFactory;
 import javafx.scene.shape.Shape;
 import melemed.catan.board.Location;
 import melemed.catan.board.Vertex;
-import melemed.catan.game.Game;
 import melemed.catan.game.Player;
 import melemed.catan.pieces.ui.SettlementSkin;
-import melemed.catan.ui.BoardShapeWrapper;
 
 public class Settlement extends GamePiece {
 

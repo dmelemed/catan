@@ -5,15 +5,13 @@ import org.slf4j.LoggerFactory;
 
 import javafx.event.EventHandler;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.Shape;
 import melemed.catan.board.Edge;
-import melemed.catan.board.NumberToken;
 import melemed.catan.config.Config;
 import melemed.catan.ui.BoardShapeWrapper;
 
-public class EdgeSkin extends BoardShapeWrapper {
+public class EdgeSkin implements BoardShapeWrapper {
 
 	private static final Logger logger = LoggerFactory.getLogger(EdgeSkin.class);
 

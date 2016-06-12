@@ -3,12 +3,11 @@ package melemed.catan.cards.ui;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.Shape;
-import javafx.scene.shape.StrokeLineCap;
 import melemed.catan.board.Resource;
 import melemed.catan.config.Config;
 import melemed.catan.ui.BoardShapeWrapper;
 
-public class ResourceCardSkin extends BoardShapeWrapper {
+public class ResourceCardSkin implements BoardShapeWrapper {
 
 	private Rectangle shape;
 
